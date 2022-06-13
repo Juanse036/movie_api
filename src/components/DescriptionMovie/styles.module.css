@@ -1,0 +1,168 @@
+
+.allcontainer{    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(231, 231, 231);
+    background-color:rgb(54, 54, 54) ;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    
+}
+
+
+.image{
+    width: 250px;
+    height: auto;
+}
+
+.extrainfo{
+    width: 250px;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;    
+    padding: 6px 6px;
+}
+
+.separador {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-top: 1px solid rgb(82, 82, 82);
+    height: 2px;
+    max-width: 200px;
+    padding: 0;    
+  }
+
+.videoresponsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;     
+
+}
+
+.videotrailer{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+}
+
+.continerdesciption{
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    padding: 8px 8px;
+}
+
+.description{
+    margin-top: 10px;
+    font-size: 14px;
+    text-align:justify;
+    max-width: 854px;
+    
+}
+
+.containeractors{
+    margin-top: 40px;    
+}
+
+.allcard{    
+    background-color:rgb(40, 40, 40) ;
+}
+
+.textcast{    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.downarrow{
+    width: 35px;
+    height: 35px;    
+}
+
+.castbody{
+    background-color: #444444;
+}
+
+.actors{
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            250px,
+            1fr
+        )
+    );    
+    margin-top: 15px;
+    
+}
+
+.containerlistactorsimage{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.listactorsimage {
+    width: 70px;   
+}
+
+.listaactors{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5px 10px;
+    align-items:center;
+}
+
+.textname{
+    margin-top: 3px;
+    font-size: 14px;
+    
+}
+
+.spinner{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+
+@media (max-width: 635px) {
+    .allcontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .image{
+        width: 100%;
+        height: auto;
+    }
+    .extrainfo{
+        width: 100%;
+    }
+
+    .actors{
+        display: flex;
+        flex-direction: column;
+        align-items: left;        
+    }
+    .containerlistactorsimage{
+        min-width: 50px;
+        min-height: 50px;
+        overflow: hidden;
+    }
+
+  }

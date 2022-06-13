@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:wght@400;700&display=swap');
+
+.feedmovies {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, 200px );
+    justify-content: center;
+    gap: 16px;
+    margin-top: 20px;
+    margin-left: -35px;
+}
+
+.movie {    
+    list-style-type: none;
+    background-color: rgb(33, 37, 41);    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;    
+}
+
+.linkdescription{
+    text-decoration-line: none;
+}
+
+@media (max-width: 635px) {
+    .feedmovies {
+        display: grid;
+        grid-template-columns: repeat( auto-fit, 160px );
+        justify-content: center;
+        gap: 10px;
+    }
+
+}

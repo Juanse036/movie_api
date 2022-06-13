@@ -1,0 +1,32 @@
+.buttonfilters{
+    margin-right: 25px;
+}
+
+.offcanvas{
+    background-color: rgb(46, 46, 46);
+    color: rgb(199, 199, 199);    
+}
+
+.body{
+    flex-grow: 0;
+}
+
+.body p{
+    font-size: 22px;
+}
+
+.gridcheckbox{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, 120px );
+    gap: 10px 0px;
+}
+
+.bodyfilters2{
+    margin-top: 40px;
+}
+
+.buttonsearch{
+    margin-top: 40px;
+    width: 50%;
+    margin-left: 25%;
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:wght@400;700&display=swap');
+
+.imagebox{
+    min-height: 300px;
+}
+
+.image{
+    width: 200px;
+    height: auto;    
+}
+
+.title{        
+    font-family: 'Charis SIL', serif;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(255, 255, 255, .80);
+
+}
+
+@media (max-width: 635px) {
+    .image{
+        width: 160px;
+        height: auto;        
+    }
+    .imagebox{
+        min-height: 240px;
+    }
+}

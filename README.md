@@ -33,7 +33,7 @@ VITE_API_KEY=write_your_key_here
 
 # Run
 
-Once you've created a .env file with your one key you can RUN de app
+Once you've created a .env file with your own key you can RUN de app
 
 ```bash
 npm run dev

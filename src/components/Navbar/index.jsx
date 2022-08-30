@@ -52,7 +52,7 @@ export default function MainNavbar() {
                                 onKeyPress={handleKeyPress}                           
                             />
                             <Button 
-                                variant="outline-secondary"
+                                variant="outline-light"
                                 href={`/Search/${searchText}`}
                             >
                                 Search
